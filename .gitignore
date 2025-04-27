@@ -1,18 +1,77 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
+# ========== Unity Generated ==========
+[Ll]ibrary/
+[Tt]emp/
 [Oo]bj/
-[Bb]in/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+.assetstoretools/
 
-# Other files and folders
-.settings/
+# ========== Unity Collab ==========
+.collabignore
+.Collab/
 
-# Executables
-*.swf
-*.air
-*.ipa
+# ========== IDE Specific ==========
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.booproj
+*.svd
+*.sln
+*.sln*
+
+# ========== OS Specific ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== Build Artifacts ==========
 *.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.exe
+*.app
+*.ipa
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# ========== Packages ==========
+Packages/packages-lock.json
+
+# ========== Machine Learning / AI Files (Optional) ==========
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# ========== Python / Jupyter Notebooks (Optional) ==========
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# ========== Logs & Cache ==========
+*.log
+
+# ========== Backup / Temp Files ==========
+*.bak
+*.tmp
+*.old
+~$*
+
+# ========== Ignore Local ML folders ==========
+shap_e_model_cache/
+kaolin/
+
+# ========== If using JetBrains Rider ==========
+.idea/
+*.csproj.user
+.idea/.idea.*
+
+# ========== Uncomment if using Addressables ==========
+# Assets/AddressableAssetsData/*/*.bin
+# Assets/AddressableAssetsData/*/*.linker
