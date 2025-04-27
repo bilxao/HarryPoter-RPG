@@ -72,6 +72,13 @@ kaolin/
 *.csproj.user
 .idea/.idea.*
 
-# ========== Uncomment if using Addressables ==========
-# Assets/AddressableAssetsData/*/*.bin
-# Assets/AddressableAssetsData/*/*.linker
+/Assets/Props Animations
+/Assets/Props Animations.meta
+/Assets/Gaia
+/Assets/Gaia.meta
+/Assets/ErosionBrush
+/Assets/Super Sampling (SSAA)
+/Assets/Camera Filter Pack
+/Assets/Ignored
+
+translation/
